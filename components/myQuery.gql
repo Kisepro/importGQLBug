@@ -1,9 +1,5 @@
-mutation updateLikeX2($videoId: ID!, $userId: ID!, $isALike: Boolean!) {
-  # updateVideoLike(where: {id: "cjcx91cc1dbs10181jaexybls"}, isAlike: false, userId: "cjcqgkl1skioh01574nsbgqxe") {
-  updateVideoLike(where: { id: $videoId }, isALike: $isALike, userId: $userId) {
+mutation query {
+  query {
     id
-    likedBy {
-      id
-    }
   }
 }

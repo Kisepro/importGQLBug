@@ -1,7 +1,7 @@
 //import liraries
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import Query from "./myQuery.gql";
+import Query from "./myQuery.gql"; // absolute path will work. ex: C:\Project\importGQL\components\myQuery.gql
 
 // create a component
 class ComponentA extends Component {
