@@ -1,7 +1,7 @@
 //import liraries
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
-import * as XXX from "\\myQuery.gql";
+import Query from "./myQuery.gql";
 
 // create a component
 class ComponentA extends Component {
